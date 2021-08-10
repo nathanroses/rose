@@ -109,11 +109,19 @@ footer p {
   text-align: center;
   font-size: 23px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(152, 46, 238);
+  background-color: rgb(153, 243, 94);
+  padding: 10px;
+}
+.bodytextb {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(243, 94, 164);
   padding: 10px;
 }
 
 .sofaygo {
   background-color: black;
-  text-align: center;
+  box-sizing: border-box;
 }
