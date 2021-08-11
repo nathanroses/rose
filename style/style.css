@@ -52,6 +52,12 @@ header nav ul li a {
   background-color: black;
 }
 
+.fixin {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10;
+}
+
 /*Body Of Index Rose */
 
 body h2 {
