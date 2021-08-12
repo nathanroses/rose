@@ -130,7 +130,7 @@ footer p {
 .sofaygo {
   background-color: black;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: auto 0;
 }
 
 .indexbt {
