@@ -163,13 +163,12 @@ footer p {
 
 .bodypt {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(209, 118, 245);
+  background-color: rgb(110, 240, 110);
   color: black;
   text-align: center;
   margin: 0px;
   padding: 20px;
-  position: absolute;
-  bottom: 670px;
+  bottom: 700px;
   width: 1950px;
 }
 
