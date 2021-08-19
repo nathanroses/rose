@@ -39,6 +39,8 @@ header nav {
 header nav ul li {
   display: inline-block;
   position: relative;
+  transform: scale(1.3);
+  transition: all 0.2s ease-in-out 0.3s;
 }
 
 header nav ul li a {
@@ -146,7 +148,7 @@ footer p {
 }
 
 .indexbta {
-  color: rgb(255, 160, 196);
+  color: rgb(228, 170, 255);
 }
 
 .indexbtc {
@@ -174,4 +176,16 @@ footer p {
 
 .noin {
   background-color: black;
+}
+
+a:hover {
+  font-weight: bold;
+  list-style-type: none;
+  text-shadow: 5x 5x white;
+  color: rgb(250, 135, 225);
+}
+
+ul li:hover {
+  transform: translateX(10px);
+  transition: all 0.4s ease-in 0.2s;
 }
