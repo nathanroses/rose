@@ -188,16 +188,20 @@ a:hover {
 
 ul li:hover {
   transform: translateX(8px);
-  transition: all 0.5s ease-in 0.1s;
+  transition: all 0.5s ease-in 0.3s;
 }
 
 .h1-hover-rose:hover {
   transform: translateX(5px);
-  transition: all 0.4s ease-out 0.3s;
+  transition: all 0.4s ease-in 0.4s;
   color: #44d043;
+  font-weight: bold;
 }
 
 .h1-hover-rose {
   font-size: 35px;
-  margin: 6px;
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+  margin: 3px 3px;
 }
