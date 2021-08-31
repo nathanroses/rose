@@ -11,7 +11,8 @@
 header {
   background-color: black;
   padding: 5px 40px;
-  height: 100%;
+  top: 0;
+  position: sticky;
 }
 
 header h1 {
@@ -25,8 +26,6 @@ header a {
   text-decoration: none;
   display: block;
 }
-
-/*Header Nav - "Home About" Text Placement on Main*/
 
 header nav {
   float: right;
@@ -59,8 +58,9 @@ header nav ul li a {
   position: sticky;
   bottom: 10;
 }
+/* End Of Header */
 
-/*Body Of Index Rose */
+/*Body of Home Page*/
 
 body h2 {
   color: black;
@@ -99,7 +99,6 @@ footer p {
 
 
 
-
 */
 
 /*Request Sheet 
@@ -120,6 +119,7 @@ footer p {
   background-color: rgb(219, 158, 255);
   padding: 10px;
 }
+
 .bodytextb {
   color: black;
   display: flex;
