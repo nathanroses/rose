@@ -10,10 +10,11 @@
 
 header {
   padding: 20px 25px;
-  background-color: black;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  background-image: url("../img/3236522.jpg");
 }
 
 header h1 {
