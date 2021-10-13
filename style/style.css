@@ -22,7 +22,8 @@ header {
   flex-wrap: wrap;
 
   background-image: url(../img/yes2.jpg);
-  background-size: auto;
+  background-position-y: center;
+  background-position-x: 10%;
   overflow: hidden;
 }
 
