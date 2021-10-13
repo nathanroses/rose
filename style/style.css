@@ -9,22 +9,25 @@
 html,
 body {
   max-width: 100%;
+  max-height: 100%;
   overflow-x: hidden;
 }
 
 /* Style Header*/
 
 header {
-  padding: 10px 25px;
+  padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
-  background-image: url("../img/3236522.jpg");
+  background-image: url(../img/yes.jpg);
+  background-size: auto;
+  overflow: hidden;
 }
 
 header h1 {
-  color: azure;
+  color: white;
   margin-left: 12px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   bottom: 5px;
@@ -36,7 +39,7 @@ header a {
 }
 
 header nav {
-  margin: 7px 0;
+  margin: 5px 5px;
 }
 
 header nav ul {
@@ -55,10 +58,10 @@ header nav ul li {
 }
 
 header nav ul li a {
-  padding: 10px 10px;
+  padding: 10px 15px;
   margin: 0px 30px;
   font-size: 22px;
-  color: white;
+  color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -67,7 +70,7 @@ header nav ul li a {
 }
 
 .navbar {
-  display: inline-block;
+  display: block;
 }
 /* End Of Header */
 
@@ -99,12 +102,12 @@ a:hover {
   font-weight: bold;
   list-style-type: none;
   text-shadow: 5x 5x white;
-  color: rgb(250, 135, 225);
+  color: white;
 }
 
 ul li:hover {
   transform: translateX(8px);
-  transition: all 0.5s ease-in 0.3s;
+  transition: all 0.5s ease-in 0.4s;
 }
 
 .h1-hover-rose:hover {
