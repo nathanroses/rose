@@ -16,20 +16,18 @@ body {
 /* Style Header*/
 
 header {
-  padding: 10px 30px;
+  padding: 15px 25px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
-  background-image: url(../img/yes.jpg);
+  background-image: url(../img/yes2.jpg);
   background-size: auto;
   overflow: hidden;
 }
 
 header h1 {
   color: white;
-  margin-left: 12px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   bottom: 5px;
 }
 
@@ -52,26 +50,23 @@ header nav ul {
   margin: 30px;
 }
 
-header nav ul li {
+header nav ul li a:hover {
   transform: scale(1.3);
-  transition: all 0.2s ease-in-out 0.3s;
+  transition: all 0.2s ease-in-out 0.2s;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
-  margin: 0px 30px;
-  font-size: 22px;
+  margin: 0px 28px;
+  font-size: 25px;
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: monospace;
+  font-weight: bolder;
 }
 
 .biglogoindex {
   background-color: black;
 }
 
-.navbar {
-  display: block;
-}
 /* End Of Header */
 
 /*Body of Home */
