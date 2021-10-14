@@ -130,10 +130,24 @@ body h3 {
 /*End of Body */
 
 /* MEET THE TRAINERS START */
+.train {
+  border-bottom: black 5px;
+  margin: 25px 500px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.075);
+  display: flexbox;
+}
+
+.train h2 {
+  font-family: monospace;
+  color: rgba(0, 0, 0, 0.611);
+  display: block;
+  text-align: center;
+}
 
 .trainer {
-  margin: 110px 35px;
-
+  margin: 120px 35px;
   color: white;
   padding: 20px 15px;
   flex: 1;
