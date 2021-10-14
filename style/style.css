@@ -13,6 +13,10 @@ body {
   overflow: hidden;
 }
 
+#grey {
+  color: rgba(255, 255, 255, 0.438);
+}
+
 /* Style Header*/
 
 header {
@@ -58,7 +62,7 @@ header nav ul li a:hover {
 
 header nav ul li a {
   margin: 0px 28px;
-  font-size: 26px;
+  font-size: 28px;
   color: black;
   font-family: monospace;
   font-weight: bolder;
@@ -71,24 +75,114 @@ header nav ul li a {
 /* End Of Header */
 
 /*Body of Home */
+.ogtitle {
+  background-color: rgba(0, 0, 0, 0.312);
+  margin: 60px 500px;
+  padding: 25px 20px;
+  border-radius: 20px;
+  font-family: monospace;
+  display: flexbox;
+  overflow: hidden;
+}
+
+body {
+  background-color: gray;
+  background-image: url(../img/earth.jpg);
+  background-size: auto;
+}
+
 body img {
-  display: inline;
+  display: flexbox;
   max-width: 100%;
+  border-radius: 15px;
 }
 
 body h1 {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: monospace;
   color: white;
   font-size: 50px;
+  padding: 10px;
   background-image: url(../img/3236522.jpg);
+  display: flexbox;
 }
 
+body h2 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+  color: whitesmoke;
+}
+
+body h3 {
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  display: flexbox;
+}
+
+.mainbg {
+  opacity: 75%;
+  filter: blur(0.1rem);
+  display: inline;
+}
 /*End of Body */
+
+/* MEET THE TRAINERS START */
+
+.trainer {
+  margin: 110px 35px;
+
+  color: white;
+  padding: 20px 15px;
+  flex: 1;
+  border-radius: 15px;
+}
+
+.trainer-img {
+  image-resolution: 100px;
+  border-radius: 50%;
+  display: flexbox;
+}
+
+.trainer-bio {
+  padding: 40px;
+  margin: 25px;
+  text-align: center;
+  font-family: monospace;
+  display: block;
+  background-color: rgba(92, 92, 92, 0.459);
+  border-radius: 25px;
+}
+
+.trainer-bio h3 {
+  font-size: 28px;
+  text-align: center;
+  font-family: monospace;
+  display: flexbox;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+}
+
+.trainers {
+  width: 100%;
+  margin: -100px auto;
+  display: flex;
+  padding: 25px 25px;
+}
+/* TRAINER STYLES END */
 
 /*Start Of The Footer*/
 footer {
-  background-image: url(../img/3236522.jpg);
   text-align: center;
 }
 /* End Of Footer*/
@@ -110,7 +204,7 @@ ul li:hover {
 .h1-hover-rose:hover {
   transform: translateX(5px);
   transition: all 0.4s ease-in 0.4s;
-  color: #44d043;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -121,4 +215,5 @@ ul li:hover {
   color: white;
   margin: 3px 3px;
 }
+
 /* End Of Navigation*/
