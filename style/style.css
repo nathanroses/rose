@@ -268,8 +268,8 @@ body h3 {
 /*PRICING STYLES*/
 .pricingimg {
   text-align: center;
-  margin: 120px;
-  display: block;
+  margin: 60px;
+  display: flexbox;
 }
 
 /*PRICING STYLES END*/
